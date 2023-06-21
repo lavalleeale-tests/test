@@ -3,14 +3,14 @@
         "id": "first",
         "image": "base",
         "steps": [
-          "ls"
+          "sleep 10"
         ]
       },
       {
         "id": "second",
         "image": "base",
         "steps": [
-          "ls"
+          "sleep 10"
         ],
         "needs": [
           "first"
