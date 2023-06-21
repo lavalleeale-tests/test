@@ -13,7 +13,7 @@
           "ls"
         ],
         "needs": [
-          "assets"
+          "first"
         ]
       }
     ]
