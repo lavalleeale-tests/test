@@ -3,14 +3,14 @@
         "id": "first",
         "image": "base",
         "steps": [
-          "sleep 10"
+          {"type": "shell", "command": "sleep 10"}
         ]
       },
       {
         "id": "second",
         "image": "base",
         "steps": [
-          "sleep 10"
+          {"type": "shell", "command": "sleep 10"}
         ],
         "needs": [
           "first"
